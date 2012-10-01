@@ -1,0 +1,30 @@
+{
+  "attributes": {
+  },
+  "suggestions": {
+  },
+  "recipes": {
+  },
+  "license": "MIT",
+  "recommendations": {
+  },
+  "maintainer": "NationalField, LLC",
+  "dependencies": {
+    "nagios": ">= 0.0.0"
+  },
+  "version": "0.1.0",
+  "providing": {
+  },
+  "conflicting": {
+  },
+  "maintainer_email": "engineers@nationalfield.com",
+  "description": "Installs/Configures nagios-ext",
+  "replacing": {
+  },
+  "platforms": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "groupings": {
+  },
+  "name": "nagios-ext"
+}
