@@ -1,0 +1,11 @@
+<% @nodes.each do |n| -%>
+define host {
+        use                     generic-ubuntu-server
+        alias                   <%= n['hostname'] %>
+        host_name               <%= n.name %>
+        address                 <%= n['ipaddress'] %>
+        _aws_instance           <%= n['ec2']['instance_id'] %>
+        hostgroups              +<%= n['ec2']['placement_availability_zone'] %>, app-web-servers
+        parents                 <%= n['ec2']['placement_availability_zone'] %>
+}
+<% end -%>
