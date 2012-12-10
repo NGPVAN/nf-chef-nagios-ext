@@ -1,0 +1,8 @@
+<% @nodes.each do |n| -%>
+define service {
+    use                     generic-service
+    service_description     <%= @description %> - <%= n.name %>
+    check_command           check_nrpe_1arg!<%= @command %>_<%= n.name %>
+    hostgroup_name          <%= @hostgroup %>
+}
+<% end -%>
