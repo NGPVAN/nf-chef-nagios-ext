@@ -7,7 +7,8 @@ template "/etc/nagios3/conf.d/hosts-chef-webheads.cfg" do
     mode "0755"
 
     variables(
-        :nodes => webservers
+        :nodes => webservers,
+        :group => 'app-web-servers'
     )
 
     notifies :restart, "service[nagios3]"
