@@ -1,30 +1,30 @@
 {
-  "attributes": {
+  "groupings": {
   },
-  "suggestions": {
-  },
-  "recipes": {
-  },
-  "license": "MIT",
-  "recommendations": {
-  },
-  "maintainer": "NationalField, LLC",
   "dependencies": {
     "nagios": ">= 0.0.0"
   },
-  "version": "0.1.0",
   "providing": {
   },
+  "maintainer": "NationalField, LLC",
   "conflicting": {
   },
-  "maintainer_email": "engineers@nationalfield.com",
-  "description": "Installs/Configures nagios-ext",
-  "replacing": {
+  "recommendations": {
   },
+  "maintainer_email": "engineers@nationalfield.com",
+  "license": "MIT",
+  "recipes": {
+  },
+  "attributes": {
+  },
+  "version": "0.1.0",
+  "name": "nagios-ext",
   "platforms": {
   },
   "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
-  "groupings": {
+  "replacing": {
   },
-  "name": "nagios-ext"
+  "suggestions": {
+  },
+  "description": "Installs/Configures nagios-ext"
 }

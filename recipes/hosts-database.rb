@@ -7,7 +7,7 @@ template "/etc/nagios3/conf.d/hosts-chef-database-masters.cfg" do
 
     variables(
         :nodes => master_servers,
-        :group => 'app-web-servers'
+        :group => 'mysql-servers'
     )
 
     notifies :restart, "service[nagios3]"
